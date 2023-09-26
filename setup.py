@@ -7,5 +7,5 @@ setup(
     packages=['logger'],
     version='0.1',
     description='Personal logger used to log using decorators',
-    long_description=open('README.txt').read(),
+    long_description=open('README.md').read(),
 )
