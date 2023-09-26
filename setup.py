@@ -5,7 +5,7 @@ setup(
     url='https://github.com/QuentinMalnatti/lib-logger',
     author='Quentin Malnatti',
     packages=['logger'],
-    version='0.1.1',
+    version='0.1.2',
     description='Personal logger used to log using decorators',
     long_description=open('README.md').read(),
 )
