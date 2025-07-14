@@ -43,6 +43,9 @@ class LoggerDecorator(object):
     def __init__(self, component):
         self.__logger_base = LoggerBase(component=component)
 
+    def get_logger_base(self):
+        return self.__logger_base
+
     def log(self, stage: str):
         def decorator(func):
             def inner(*args, **kwargs):
